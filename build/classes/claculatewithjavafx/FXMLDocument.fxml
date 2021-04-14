@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="342.0" stylesheets="@calCSS.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="claculatewithjavafx.FXMLDocumentController">
+   <children>
+      <TextField fx:id="result" editable="false" minWidth="-Infinity" prefHeight="45.0" prefWidth="312.0" />
+      <HBox prefHeight="39.0" prefWidth="312.0" spacing="10.0">
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" />
+         </VBox.margin>
+         <children>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" prefHeight="100.0" prefWidth="80.0" text="7">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" prefHeight="100.0" prefWidth="80.0" text="8">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" prefHeight="100.0" prefWidth="80.0" text="9">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#opertion" prefHeight="100.0" prefWidth="80.0" text="/">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="66.0" prefWidth="290.0" spacing="10.0">
+         <children>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" text="4">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" text="5">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" text="6">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#opertion" text="*">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="83.0" prefWidth="312.0" spacing="10.0">
+         <children>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" text="1">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" text="2">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" text="3">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#opertion" text="+">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="86.0" prefWidth="299.0" spacing="10.0">
+         <children>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#numbers" prefHeight="60.0" prefWidth="65.0" text="0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#numbers" prefHeight="58.0" prefWidth="58.0" text=".">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#opertion" text="=">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#opertion" text="-">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="92.0" prefWidth="312.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#exit" prefHeight="60.0" prefWidth="132.0" text="Exit">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Clear" prefHeight="60.0" prefWidth="84.0" text="AC">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#opertion" prefHeight="60.0" prefWidth="73.0" text="\%">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="7.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
